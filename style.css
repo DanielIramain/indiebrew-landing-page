@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+/* global */
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background: radial-gradient(circle at 0% 5%, #ebcaf7 0%, #fcfbf7 19%);
+}
+
+p {
+    color: #6b6b6b;
+}
+/* global ends */
 
 /* header section */
 
@@ -20,6 +35,15 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #111010;
+}
+
+a {
+    transition: .5s;
+}
+
+a:hover {
+    transition: .5s;
+    opacity: 0.7;
 }
 
 button {
@@ -95,9 +119,9 @@ button {
 }
 
 .resource-image {
-    width: 35%;
+    width: 30%;
     margin-left: 20%;
-    padding-top: 10%;
+    padding-top: 8%;
 }
 
 .resource-image img {
@@ -150,11 +174,14 @@ footer {
 
 footer p, footer a {
     margin-bottom: 20px;
-  }
+}
+
 
 footer a {
   text-decoration: none;
+  color: #8b8a8a;
 }
+
 footer p {
   margin-top: 0;
 }
@@ -170,6 +197,7 @@ footer p {
 
 .footer-header {
   font-weight: bold;
+  font-size: larger;
   opacity: 1;
   margin-bottom: 26px;
   color: #000000;
@@ -186,6 +214,4 @@ footer p {
     text-align: left;
 }
 
-.footer-section {
-
-}
+/* footer ends */
