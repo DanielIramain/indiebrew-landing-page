@@ -17,6 +17,11 @@ nav ul li {
     margin-left: 15px;
 }
 
+nav ul li a {
+    text-decoration: none;
+    color: #111010;
+}
+
 button {
     font-size: 14px;
     border: 0;
@@ -50,6 +55,11 @@ button {
     margin-bottom: 0;
 }
 
+.hero-text span {
+    color: #664efc;
+    font-weight: bold;
+}
+
 .hero-image {
     width: 50%;
 }
@@ -74,8 +84,14 @@ button {
 }
 
 .resource-text h2 {
-    font-size: 4vmax;
+    font-size: 3vmax;
     margin-bottom: 0;
+}
+
+.resource-text a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #664efc;
 }
 
 .resource-image {
@@ -89,3 +105,87 @@ button {
     justify-content: center;
 }
 
+/* resource section ends */
+
+/* phone section */
+.phone-section {
+    margin-top: 100px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.phone-mockup {
+    width: 50%;
+}
+
+.phone-mockup img {
+    width: 80%;
+}
+
+.phone-text {
+    margin: auto;
+    width: 50%;
+}
+
+.phone-text h2 {
+    font-size: 3vmax;
+    margin-bottom: 0;
+}
+
+.phone-text a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #664efc;
+}
+
+/* phone section ends */
+
+/* footer */
+footer {
+    padding: 4% 10%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fdfcf9;
+}
+
+footer p, footer a {
+    margin-bottom: 20px;
+  }
+
+footer a {
+  text-decoration: none;
+}
+footer p {
+  margin-top: 0;
+}
+
+.description {
+    width: 400px;
+  }
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+.footer-header {
+  font-weight: bold;
+  opacity: 1;
+  margin-bottom: 26px;
+  color: #000000;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+  }
+
+.footer-description {
+    margin-bottom: auto;
+    text-align: left;
+}
+
+.footer-section {
+
+}
