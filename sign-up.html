@@ -4,42 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign-up.css">
     <title>Sign up | IndieBrew</title>
 </head>
 <body>
     <header>
-        <img src="Assets/Logo.svg" alt="logo">
-        <div>
-            <button type="button" onclick="location.href='index.html'" ><img src="Assets/Back Arrow.svg" alt="back-arrow"></button>
-            <p>Back to Homepage</p>
-        </div>
+        <nav>
+            <img src="Assets/Logo.svg" alt="logo">
+            <div>
+                <button type="button" onclick="location.href='index.html'" ><img src="Assets/Back Arrow.svg" alt="back-arrow"></button>
+                <p>Back to Homepage</p>
+            </div>
+        </nav>
     </header>
 
     <section>
-        <div>
+        <div class="sign-up-text">
             <h1>Create your personalized feed.</h1>
-            <div>
-                <p><span>Over 20 resources</span>. With resources ranging from Reddit to IndieHackers, we've got all your needs covered</p>                
+            <div class="info">
+                <p><span>&#127880;Over 20 resources</span>. With resources ranging from Reddit to IndieHackers, we've got all your needs covered</p>                
             </div>
-            <div>
-                <p><span>Delivered Weekly</span>Every Week at exactly Tuesday 12:00 P.M EST - expect a value-packed digest right in your email.</p>
+            <div class="info">
+                <p><span>&#128240;Delivered Weekly</span>Every Week at exactly Tuesday 12:00 P.M EST - expect a value-packed digest right in your email.</p>
             </div>
-            <div>
-                <p><span>Unlimited ideas</span>With all the ideas you'll be reading about, what's stopping you from creating a sustainable startup?</p>
+            <div class="info">
+                <p><span>&#128161;Unlimited ideas</span>With all the ideas you'll be reading about, what's stopping you from creating a sustainable startup?</p>
             </div>
         </div>
-        <div>
+        <div class="create-account">
             <h2>Create your IndieBrew Account</h2>
             <form action="">
                 <label>Email</label> </br>
-                <input type="email" placeholder="john@example.com" required> </br>
+                <input class="typed-input" type="email" placeholder="john@example.com" required> </br>
                 <label>Full Name</label> </br>
-                <input type="text" placeholder="John Doe" required> </br>
+                <input class="typed-input" type="text" placeholder="John Doe" required> </br>
                 <label>Password</label> </br>
-                <input type="password" placeholder="At least 8 characters" required>
+                <input class="typed-input" type="password" placeholder="At least 8 characters" required>
             </form>
-            <input type="checkbox">
-            <p>By creating an account on IndieBrew, you agree to the <a href="#">Terms & Conditions</a></p>
+            <div class="terms-and-conditions">
+                <input type="checkbox">
+                <p>By creating an account on IndieBrew, you agree to the <a href="#">Terms & Conditions</a></p>
+            </div>
             <button type="button">Create an Account</button>
         </div>
     </section>

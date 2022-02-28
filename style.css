@@ -58,6 +58,14 @@ button {
     color: #f5f8ff;
 }
 
+button:hover {
+    background-color: transparent;
+    color: #4d13d1;
+    border: 1px solid #4d13d1;
+    transition: .5s;
+    opacity: 1 !important;
+}
+
 /* header section ends */
 
 /* hero section */
