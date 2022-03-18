@@ -3,23 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">    
     <title>IndieBrew</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <!-- header section -->
     <header>
-        <img src="Assets/Logo.svg" alt="logo">
-        <nav>    
-            <ul>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Support</a></li>
-                <li><button type="button" onclick="location.href='sign-up.html'"><strong>Get Started</strong> - it's free</button></li>
-            </ul>
-        </nav>
+        <img src="Assets/Logo.svg" alt="logo">    
+               
+        <div class="topnav" id="myTopnav">
+          <a href="#pricing" class="active">Pricing</a>
+          <a href="#support">Support</a>
+          <a href="javascript:void(0);" class="icon" onclick="displayMenu()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div> 
     </header>
+    
     <!-- hero section -->
     <section class="hero-section">
         <div class="hero-text">
@@ -33,6 +39,7 @@
             <img src="Assets/Feed Mockup.png" alt="feed example">
         </div>
     </section>
+    
     <!-- resource section -->
     <section class="resource-section">
         <div class="resource-text">
@@ -45,6 +52,7 @@
         </div>
         
     </section>
+    
     <!-- phone section -->
     <section class="phone-section">
         <div class="phone-mockup">
@@ -57,41 +65,42 @@
         </div>
     </section>
 
-        <footer>
-            <div class="description footer-links">
-                <h3>IndieBrew</h3>
-                <p>With IndieBrew, get personal feeds from resources all around the web, including Reddit, HackerNews, and much more.</p>
-                <p>Made with &#9829 in Argentina</p>
-            </div>
-
-            <div class="footer-section">
-                
-                <div class="sitemap footer-links">
-                  <p class="footer-header">Sitemap</p>
-                  <a href="#">Homepage</a>
-                  <a href="#">Pricing</a>
-                </div>
-                <div class="resources footer-links">
-                  <p class="footer-header">Resources</p>
-                  <a href="#">Support</a>
-                  <a href="#">Contact</a>
-                  <a href="#">FAQ</a>
-                </div>
-        
-                <div class="company footer-links">
-                  <p class="footer-header">Company</p>
-                  <a href="#">About</a>
-                  <a href="#">Customers</a>
-                  <a href="#">Blog</a>
-                </div>
-                <div class="portfolios footer-links">
-                  <p class="footer-header">Portfolios</p>
-                  <a href="#">HackerNews</a>
-                  <a href="#">Reddit</a>
-                  <a href="#">Twitter</a>
-                </div>
+    <footer>
+        <div class="description footer-links">
+            <h3>IndieBrew</h3>
+            <p>With IndieBrew, get personal feeds from resources all around the web, including Reddit, HackerNews, and much more.</p>
+            <p>Made with &#9829 in Argentina</p>
+        </div>
+        <div class="footer-section">
             
+            <div class="sitemap footer-links">
+              <p class="footer-header">Sitemap</p>
+              <a href="#">Homepage</a>
+              <a href="#">Pricing</a>
             </div>
-        </footer>
+            <div class="resources footer-links">
+              <p class="footer-header">Resources</p>
+              <a href="#">Support</a>
+              <a href="#">Contact</a>
+              <a href="#">FAQ</a>
+            </div>
+    
+            <div class="company footer-links">
+              <p class="footer-header">Company</p>
+              <a href="#">About</a>
+              <a href="#">Customers</a>
+              <a href="#">Blog</a>
+            </div>
+            <div class="portfolios footer-links">
+              <p class="footer-header">Portfolios</p>
+              <a href="#">HackerNews</a>
+              <a href="#">Reddit</a>
+              <a href="#">Twitter</a>
+            </div>
+        
+        </div>
+    </footer>
+
+    <script src="functions.js"></script>
 </body>
 </html>
